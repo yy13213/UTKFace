@@ -1,0 +1,19 @@
+UTKFace项目环境检查报告
+==============================
+
+虚拟环境: 虚拟环境已激活 ✅ (环境名: utkface_env)
+Python版本: Python 3.11.11 ✅
+GPU状态: PyTorch未安装，无法检查GPU ❌
+
+包安装情况:
+  torch        : 2.7.1+cpu ✅
+  torchvision  : 0.22.1+cpu ✅
+  numpy        : 2.3.1 ✅
+  pandas       : 2.3.0 ✅
+  sklearn      : 1.7.0 ✅
+  matplotlib   : 3.10.3 ✅
+  seaborn      : 0.13.2 ✅
+  tqdm         : 4.67.1 ✅
+  PIL          : 11.2.1 ✅
+
+检查时间: 2025-06-26 04:43:16.646100

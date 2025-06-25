@@ -1,0 +1,41 @@
+{
+  "rules": [
+    "项目目标：基于UTKFace数据集验证KDE与MAE的关系",
+    "始终使用中文进行交流和注释",
+    "专注于核心任务：特征提取、KDE计算、相关性分析、误差预测",
+    "忽略虚拟环境文件和大型数据文件",
+    "代码风格：简洁、高效、有详细中文注释"
+  ],
+  "include": [
+    "src/**/*.py",
+    "*.py",
+    "*.md", 
+    "*.txt",
+    "*.json",
+    "results/**/*.csv"
+  ],
+  "exclude": [
+    "utkface_env/**",
+    "**/__pycache__/**",
+    "data/utkface/**",
+    "*.pth",
+    "*.pt",
+    "*.npy",
+    "*.jpg",
+    "*.png",
+    "*.jpeg"
+  ],
+  "workspaceConfig": {
+    "projectType": "machine_learning",
+    "language": "python",
+    "framework": "pytorch",
+    "description": "UTKFace年龄预测与KDE-MAE关系分析项目"
+  },
+  "aiInstructions": [
+    "专注于核心机器学习任务，避免不必要的功能",
+    "代码必须简洁高效，优先考虑实现速度",
+    "所有文档和代码注释使用中文",
+    "重点关注：ResNet特征提取、PCA降维、KDE估计、相关性分析、Ridge回归",
+    "避免过度工程化，保持代码的直接性和可读性"
+  ]
+} 

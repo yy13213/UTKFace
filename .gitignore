@@ -1,0 +1,59 @@
+# 虚拟环境
+utkface_env/
+venv/
+env/
+ENV/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 数据文件（通常很大，不需要版本控制）
+data/
+*.jpg
+*.png
+*.jpeg
+*.pdf
+
+# 模型文件
+models/
+*.pth
+*.pt
+*.ckpt
+
+# 日志文件
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp
+
+# 环境变量文件
+.env
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# PyTorch缓存
+.cache/
+
+# 测试覆盖率
+.coverage
+htmlcov/
+
+# 构建文件
+build/
+dist/
+*.egg-info/ 

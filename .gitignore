@@ -12,10 +12,14 @@ __pycache__/
 
 # 数据文件（通常很大，不需要版本控制）
 data/
+# 允许results文件夹中的图片文件
 *.jpg
 *.png
 *.jpeg
 *.pdf
+# 但允许results文件夹
+!results/
+!results/**/*
 
 # 模型文件
 models/

@@ -1,0 +1,17 @@
+Metric,Value,Description
+Total_Samples,23715.0,总样本数
+Train_Samples,16600.0,训练样本数
+Test_Samples,7115.0,测试样本数
+Overall_MAE,7.726375767192109,整体平均绝对误差
+Overall_RMSE,11.186442054793778,整体均方根误差
+Overall_R2,0.6834849482178157,整体R²决定系数
+Train_MAE,5.328962243884139,训练集平均绝对误差
+Train_RMSE,6.894523353171994,训练集均方根误差
+Train_R2,0.8783941500705308,训练集R²决定系数
+Test_MAE,13.31977906823389,测试集平均绝对误差
+Test_RMSE,17.49827761499238,测试集均方根误差
+Test_R2,0.24524982405733065,测试集R²决定系数
+Overall_Error_Std,8.0894748500385,整体误差标准差
+Overall_Min_Error,0.0007738463827280384,整体最小误差
+Overall_Max_Error,81.04885725390517,整体最大误差
+Overall_Median_Error,5.223159150295711,整体中位数误差
